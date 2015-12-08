@@ -1,0 +1,4 @@
+#!/bin/bash
+COUNT=`cat /proc/sys/net/ipv4/netfilter/ip_conntrack_count`
+MAX=`cat /proc/sys/net/ipv4/netfilter/ip_conntrack_max`
+echo "nf_conntrack_count:${COUNT} nf_conntrack_max:${MAX}"
