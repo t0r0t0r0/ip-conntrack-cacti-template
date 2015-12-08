@@ -27,3 +27,6 @@ ip conntrack/nf conntrack値を取得してみる。<br>
 /proc/sys/net/netfilter/nf_conntrack_count<br>
 /proc/sys/net/netfilter/nf_conntrack_max<br>
 より取り出してみる。<br>
+
+##参考
+http://forums.cacti.net/about26714.html
