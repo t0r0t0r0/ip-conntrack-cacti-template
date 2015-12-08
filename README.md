@@ -11,7 +11,7 @@ Package:cacti-0.8.8b-7.el6.noarch<br>
 $ cat snmpd.conf.add >> /etc/snmp/snmpd.conf<br>
 <br>
 -- check example<br>
-$ cat /etc/snmp/snmpd.conf|grep dns-socket-count<br>
+$ cat /etc/snmp/snmpd.conf|grep ip_conntrack<br>
 extend .1.3.6.1.4.1.18689.1.1 ip_conntrack /usr/local/bin/ip_conntrack<br>
 <br>
 -- copy ip_conntrack<br>
