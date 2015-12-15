@@ -24,6 +24,7 @@ nf_conntrack_count:5623 nf_conntrack_max:360000<br>
 <br>
 ##Note
 ip conntrack/nf conntrack値を取得してみる。<br>
+iptablesが有効でクエリー数が多くなるとこの値を結構消費する。<br>
 <br>
 -- CentOS6の場合<br>
 /proc/sys/net/netfilter/nf_conntrack_count<br>
